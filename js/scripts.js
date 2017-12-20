@@ -13,4 +13,10 @@ $(document).ready(function(){
         }                
         
     });
+    $("#loginbtn").click(function(){
+        $('#loginModal').modal('toggle')
+    });
+    $('#reservebtn').click(function(){
+        $('#reserveModal').modal('toggle')
+    })
 });
